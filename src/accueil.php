@@ -2,8 +2,8 @@
 
 require_once 'products/clothes.php';
 
-var_dump($clothes);
-var_dump($_GET);
+// on mélange à l'aide de la fonction shuffle()
+shuffle($clothes);
 
 ?>
 
@@ -42,6 +42,22 @@ var_dump($_GET);
             <a class="nav-link" href="accueil.php?cat=pantalon">Pantalon</a>
         </li>
     </ul>
+
+    <main>
+        <div class="row m-0 justify-content-evenly">
+
+            <?php foreach ($clothes as $item) { ?>
+
+                <div class="div border-dark rounded col-3 p-2 m-3 shadow">
+                    <img class="img-fluid" src="assets/img/<?= $item["main"]?>" alt="<?= $item["name"]?>">
+                </div>
+
+            <?php } ?>
+
+
+
+        </div>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
