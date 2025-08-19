@@ -1,3 +1,3 @@
 <?php
 
-echo "let's start";
+header('Location: accueil.php');
