@@ -28,7 +28,7 @@
             <div>
                 <p>Côté Admin</p>
             </div>
-                        <div>
+            <div>
                 <button class="btn btn-outline-success mt-5" type="submit">Prendre un rendez-vous</button>
             </div>
             <div class="mt-2">
@@ -41,7 +41,7 @@
                 <button class="btn btn-outline-success" type="submit">Gérer les rendez-vous</button>
             </div>
             <div>
-                <button class="btn btn-outline-success mt-5" type="submit"><a href="logout.php">Déconnexion</a></button>
+                <button class="btn btn-outline-success mt-5" type="submit"><a href="logout.php" class="text-white">Déconnexion</a></button>
             </div>
         </form>
 

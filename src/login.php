@@ -22,7 +22,7 @@
                     <input type="password" class="form-control" id="inputPassword4" required>
                 </div>
                 <div class="mt-4">
-                    <button type="submit" class="btn btn-primary"><a href="espace.php">Se connecter</a></button>
+                    <button type="submit" class="btn btn-primary"><a href="espace.php" class="text-white">Se connecter</a></button>
                 </div>
             </div>
         </form>
